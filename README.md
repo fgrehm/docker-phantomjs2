@@ -2,7 +2,7 @@
 
 [![](https://badge.imagelayers.io/fgrehm/phantomjs2:latest.svg)](https://imagelayers.io/?images=fgrehm/phantomjs2:latest 'Get your own badge on imagelayers.io')
 
-The smallest PhantomJS 2.0 image (~100mb) you'll find on Docker Hub.
+The smallest PhantomJS 2.0 image (~100mb) you'll (soon) find on Docker Hub.
 
 :warning: This is an experiment. Some initial testing showed me that the [examples]()
 provided by the PhantomJS project itself are working fine but it doesn't mean
