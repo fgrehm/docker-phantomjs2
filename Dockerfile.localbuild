@@ -1,0 +1,4 @@
+FROM scratch
+MAINTAINER Fabio Rehm "fgrehm@gmail.com"
+ADD dockerized-phantomjs.tar.gz /
+ENTRYPOINT ["/usr/local/bin/phantomjs"]
