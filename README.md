@@ -4,7 +4,7 @@
 
 The smallest PhantomJS 2.0 image (~100mb) you'll (soon) find on Docker Hub.
 
-:warning: This is an experiment. Some initial testing showed me that the [examples]()
+:warning: This is an experiment. Some initial testing showed me that the [examples](https://github.com/ariya/phantomjs/tree/master/examples)
 provided by the PhantomJS project itself are working fine but it doesn't mean
 it will work for all use cases :warning:
 
