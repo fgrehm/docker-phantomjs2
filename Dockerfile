@@ -1,4 +1,6 @@
-FROM scratch
+FROM gliderlabs/alpine:3.2
 MAINTAINER Fabio Rehm "fgrehm@gmail.com"
-ADD https://github.com/fgrehm/docker-phantomjs2/releases/download/v2.0.0-20150720/dockerized-phantomjs.tar.gz /
+RUN apk-install curl \
+    && curl -Ls https://github.com/fgrehm/docker-phantomjs2/releases/download/v2.0.0-20150720/dockerized-phantomjs.tar.gz \
+       | tar xz -C /
 ENTRYPOINT ["/usr/local/bin/phantomjs"]
