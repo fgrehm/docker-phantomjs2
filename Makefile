@@ -1,3 +1,6 @@
+build: dockerize
+	docker build -t fgrehm/phantomjs2 .
+
 build.local: dockerize
 	docker build -t fgrehm/phantomjs2 -f Dockerfile.localbuild .
 

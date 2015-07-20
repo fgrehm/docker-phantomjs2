@@ -11,9 +11,14 @@ it will work for all use cases :warning:
 ## Usage
 
 ```sh
+docker run -ti --rm fgrehm/phantomjs2 --help
+```
+
+## Build it
+
+```sh
 git clone https://github.com/fgrehm/docker-phantomjs2 && cd docker-phantomjs2
 make build.local
-docker run -ti --rm fgrehm/phantomjs2 --help
 ```
 
 ## Acknowledgements
