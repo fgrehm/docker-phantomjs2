@@ -12,3 +12,6 @@ dockerize: dockerize.build
 
 dockerize.build:
 	docker build -t fgrehm/phantomjs2-dockerize -f Dockerfile.dockerize .
+
+phantomjs.build:
+	docker build -t rosenhouse/phantomjs2 -f Dockerfile.buildphantomjs .
