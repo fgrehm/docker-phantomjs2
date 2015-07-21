@@ -22,7 +22,7 @@ RUN \
 &&  unzip phantomjs.zip \
 &&  rm -rf /phantomjs/phantomjs.zip \
     # Building phantom
-&&  mv phantomjs-* phantomjs
+&&  mv phantomjs-* phantomjs \
 &&  cd phantomjs \
 &&  ./build.sh --confirm --silent \
     # Removing everything but the binary
