@@ -15,3 +15,15 @@ dockerize.build:
 
 phantomjs.build:
 	docker build -t rosenhouse/phantomjs2 -f Dockerfile.buildphantomjs .
+
+test:
+	docker run -ti --rm \
+		-v `pwd`:/workspace \
+		-w /workspace \
+		fgrehm/phantomjs2 \
+		examples/screenshot.js https://google.com /workspace/examples/google.png 1500px
+	docker run -ti --rm \
+		-v `pwd`:/workspace \
+		-w /workspace \
+		fgrehm/phantomjs2 \
+		examples/screenshot.js https://google.com /workspace/examples/google.pdf 1500px

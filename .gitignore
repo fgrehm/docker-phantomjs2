@@ -1,2 +1,4 @@
+examples/*.png
+examples/*.pdf
 dockerized-phantomjs2/
 dockerized-phantomjs.tar.gz
