@@ -11,6 +11,7 @@ dockerize -n -o dockerized-phantomjs \
           -a /bin/dash /bin/sh \
           -a /etc/fonts /etc  \
           -a /etc/ssl /etc  \
+          -a /usr/share/fonts /usr/share  \
           --verbose \
           $(which phantomjs) \
           /usr/bin/curl
