@@ -14,7 +14,7 @@ it will work for all use cases :warning:
 docker run -ti --rm fgrehm/phantomjs2 --help
 ```
 
-## Build it
+## Build it locally
 
 ```sh
 git clone https://github.com/fgrehm/docker-phantomjs2 && cd docker-phantomjs2
